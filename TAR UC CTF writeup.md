@@ -1,3 +1,5 @@
+Sadly these flags were not found during the contest but after on the rehosted version haha, and got a lots of hints from other participants and gamemasters.
+
 There are 23 flags altogether in original version and 22 flags on rehosted version at https://canyouseeme.ml/ (submit flags at verdesec.net/)
 
 Extra flag in original version is embedded in an access token sent to participants in email upon successful registration, base64 decode the access token to capture flag.
