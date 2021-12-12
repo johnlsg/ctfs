@@ -46,7 +46,7 @@ Among 29 flags, we managed to capture 13 of them.
 
 This challenge gives a file named CTF.sb3, googled the file extension found out it is a Scratch program file. Upload the file to https://scratch.mit.edu/, its source code can be viewed directly. 
 
-![image-20211212143616761](C:\Users\User\project\ctfs\wgmy2021_images\image-20211212143616761.png)
+![image-20211212143616761](./wgmy2021_images/image-20211212143616761.png)
 
 We can see that the flag is scrambled by using score%38 as index. So we wrote a python script to unscramble the flag. The unscrambled flag still doesn't look right, so we swapped every two characters of the flag for the final flag wgmy{78b13db324cd79174adbd089030d023c}.
 
@@ -214,7 +214,7 @@ exit 0
 
 ```
 
-![image-20211212180043128](C:\Users\User\project\ctfs\wgmy2021_images\image-20211212180043128.png)
+![image-20211212180043128](./wgmy2021_images/image-20211212180043128.png)
 
 Reference: 
 
@@ -230,7 +230,7 @@ Download the zip file decrypt with password provided "infected", an eml file pro
 
 wgmy{f4053a1aca84638b565c5f941a21b9484772520d7536e31ca41de0deaee14e2c}
 
-![image-20211212163103660](C:\Users\User\project\ctfs\wgmy2021_images\image-20211212163103660.png)
+![image-20211212163103660](./wgmy2021_images/image-20211212163103660.png)
 
 
 
@@ -380,7 +380,7 @@ Viewing the page's source code, we found that function "go" is executed in respo
 
 Therefore, we tried to view source code of function "go" using following technique
 
-![image-20211212171501925](C:\Users\User\project\ctfs\wgmy2021_images\image-20211212171501925.png)
+![image-20211212171501925](./wgmy2021_images/image-20211212171501925.png)
 
 Noticing that it is generating hash of something, we run the expression again in console to get the hash, and turns out it is actually the flag. This was the fastest challenge we solved in contest. After contest, checking the page source code again with notepad during writing this we found out it was actually followed by long obfuscated script with unprintable characters, we didn't saw it in browser so we went with the route shown above, guess we were lucky, or else we might have choose to deobfuscate the script.
 
