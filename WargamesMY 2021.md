@@ -778,3 +778,7 @@ Enter option:
 ```
 
 Finally, the flag is wgmy{6bd7f862cbfa8b802a63b09979d00ee6}
+
+## Team Members
+- John Law
+- Desmond Kang
