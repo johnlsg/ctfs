@@ -370,7 +370,7 @@ Compute SHA1 of ket to get flag wgmy{23a00e2c2bd7e0b493384ea50cbf3e113ee0a1ba}
 
 After throwing the dropped exe file into RE tool, we found out that it is actually Python compiled into exe using Py2exe (https://github.com/py2exe/py2exe). However, we spent hours on trying to extract and decompile the Python script from the exe. We used Resource Hacker (http://www.angusj.com/resourcehacker/) to extract out a file named "PYTHONSCRIPT1". We tried to used tools like unpy2exe, uncompyle6 with no success. 
 
-After reading writeup of "unlimited" https://github.com/unlimitet/WargamesMY/blob/main/Forensic%20Writeup.pdf, maybe we should take a step back and think for other ways during stucked.
+After reading writeup of "unlimitet" https://github.com/unlimitet/WargamesMY/blob/main/Forensic%20Writeup.pdf, maybe we should take a step back and think for other ways during stucked.
 
 
 
