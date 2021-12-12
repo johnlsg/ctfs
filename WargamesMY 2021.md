@@ -1,6 +1,6 @@
 # WargamesMY 2021 writeup by liudashendiao
 
-
+For files and full scripts used in challenges, those who are interested may download it from https://drive.google.com/file/d/1MV-gkDcSz72XNs5qR9PGp7QYcv8uLnxe/view?usp=sharing (The link may be dead after several months after writing of this writeup, in that case you can try to raise issue, and we may/may not sent you the files depending on whether we still have them). The files provided here only includes the challenges solved by our team and third party tools are not included, for files of other challenges you may try to ask directly from WargamesMY or check out the write ups of other teams.
 
 Among 29 flags, we managed to capture 13 of them.
 
