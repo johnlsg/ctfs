@@ -203,6 +203,8 @@ By placing breakpoints, I was able to determien r8's value is 4 (the modulo).
 However the key seems is not inside the binary itself. Since it is known that flag starts with "verd", by XORing "verd" with "~hfy", we get xor key 0x08 0x0D 0x14 0x1D, 
 and using https://www.dcode.fr/xor-cipher, the flag is decrypted and captured.
 
+Update 13Dec2021: Actually the key can be found in the binary according to the official writeup released at https://bit.ly/TARUCCTF2021WriteUp 
+
 Flag #17: Windows App
 
 verdesec{nonstop_netflag_november}
